@@ -1,0 +1,5 @@
+date,description,amount,currency,account
+2025-08-01,Salary August,3000,EUR,Checking
+2025-08-02,LIDL Groceries,-45.20,EUR,Checking
+2025-08-04,Netflix Subscription,-12.99,EUR,CreditCard
+2025-08-05,Restaurant - Dinner,-30.50,EUR,CreditCard

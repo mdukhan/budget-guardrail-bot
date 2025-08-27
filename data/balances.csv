@@ -1,0 +1,4 @@
+account,balance,currency,as_of
+Checking,2500,EUR,2025-08-27
+Savings,5000,EUR,2025-08-27
+CreditCard,-1200,EUR,2025-08-27

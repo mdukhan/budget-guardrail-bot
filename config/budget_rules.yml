@@ -1,0 +1,39 @@
+currency: EUR         # base currency (script ignores FX if all are same)
+monthly_income_target: 3000   # optional, for savings-rate calc
+monthly_budgets:
+  Groceries: 350
+  Dining Out: 150
+  Transport: 120
+  Entertainment: 120
+  Subscriptions: 60
+  Health & Fitness: 80
+  Shopping: 200
+  Housing: 900        # rent/mortgage
+categorization:
+  Groceries:
+    - "ALDI"
+    - "LIDL"
+    - "CARREFOUR"
+    - "DELHAIZE"
+  Dining Out:
+    - "UBER EATS"
+    - "DELIVEROO"
+    - "RESTAURANT"
+  Transport:
+    - "SNCB"
+    - "NMBS"
+    - "FILLING STATION"
+    - "BOLT"
+  Subscriptions:
+    - "NETFLIX"
+    - "SPOTIFY"
+    - "ADOBE"
+    - "MICROSOFT 365"
+  Housing:
+    - "RENT"
+    - "LANDLORD"
+fallback_category: "Other"
+guardrails:
+  overspend_threshold: 1.10   # 110% of budget triggers alert
+  min_savings_rate: 0.20      # 20%+
+  min_runway_months: 6        # based on avg burn
