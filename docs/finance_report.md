@@ -1,4 +1,4 @@
-# 💰 Budget Guardrail Report — 2025-09-01
+# 💰 Budget Guardrail Report — 2025-10-01
 
 - **Avg Monthly Income (last 3 closed months):** €3000.0
 - **Avg Monthly Burn (last 3 closed months):** €88.69
